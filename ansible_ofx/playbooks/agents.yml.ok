@@ -1,0 +1,33 @@
+---
+- hosts: static-ftp
+ # user: root
+  sudo: yes
+  tasks:
+    ##
+    # Instalación de paquetes necesarios.
+    ##
+    - name: General | Instalación de paquetes requeridos.
+      action: yum name={{ item }} state=latest
+      with_items:
+        - newrelic-sysmond
+        - nagios-plugins-nrpe.x86_64
+        - nrpe.x86_64 
+      when: ansible_os_family == "CentOS"
+    - name: General | Instalación de paquetes requeridos.
+      action: yum name={{ item }} state=latest
+      with_items:
+        - newrelic-sysmond
+        - nagios-plugins-nrpe.x86_64
+        - nrpe.x86_64
+      when: ansible_os_family == "RedHat"
+
+
+    # Reinicio de servicios
+    ##
+    - name: Restart newrelic
+      action: service name=newrelic-sysmond state=restarted
+      when: ansible_os_family == "RedHat"
+    - name: Restart nrpe
+      action: service name=nrpe state=restarted
+      when: ansible_os_family == "RedHat"
+

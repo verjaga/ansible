@@ -1,0 +1,485 @@
+# Vim 7.4 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Último Patrón de búsqueda:
+~Msle0~/\<name\>
+
+# Última cadena de sustitución:
+$
+
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:q
+:wq!
+:wq
+:q!
+:19
+:w2q
+:qq
+:qa
+:Q
+:Wq
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? \<name\>
+?/centreon
+?/ansible
+?/10.58.108.241
+?/dns
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Registros:
+"0	CHAR	0
+	-
+""1	LINE	0
+	      sudo: yes
+"2	LINE	0
+	    - shell: 'chmod +a "jenkins allow delete,write,append,file_inherit,directory_inherit" /var/www/produccio'
+"3	LINE	0
+	      sudo: yes
+"4	LINE	0
+	    - shell: 'chmod +a "nobody allow delete,write,append,file_inherit,directory_inherit" /var/www/produccio'
+"5	LINE	0
+	      ignore_errors: True
+"6	LINE	0
+	      sudo: yes
+"7	LINE	0
+	    - acl: name=/var/www/produccio entity=vagrant etype=user permissions="rwx" state=present
+"8	LINE	0
+	
+"9	LINE	0
+	      sudo: yes
+"-	CHAR	0
+	-
+
+# Marcas en el archivo:
+'0  36  0  ~/servers/servers/playbooks/newvm/reconfigure_virtual_machine.yml
+'1  21  0  ~/servers/servers/playbooks/php/reconfigure.yml
+'2  22  0  ~/servers/servers/playbooks/php/reconfigure.yml
+'3  2  16  ~/servers/cacharreos/verjaga/agentes.yml
+'4  1  0  ~/servers/servers/playbooks/all/nrpe.yml
+'5  6  8  ~/servers/servers/playbooks/all/etc_hosts.yml
+'6  1  0  servers/servers/playbooks/all/etc_hosts.yml
+'7  33  0  ~/servers/servers/hosts/stackscale
+'8  33  0  ~/servers/servers/files/stackscale/hosts
+'9  18  0  ~/servers/servers/files/stackscale/hosts
+
+# Lista de saltos (el más reciente va primero):
+-'  36  0  ~/servers/servers/playbooks/newvm/reconfigure_virtual_machine.yml
+-'  1  0  ~/servers/servers/playbooks/newvm/reconfigure_virtual_machine.yml
+-'  21  0  ~/servers/servers/playbooks/php/reconfigure.yml
+-'  22  0  ~/servers/servers/playbooks/php/reconfigure.yml
+-'  1  0  ~/servers/servers/playbooks/php/reconfigure.yml
+-'  2  16  ~/servers/cacharreos/verjaga/agentes.yml
+-'  1  0  ~/servers/servers/playbooks/all/nrpe.yml
+-'  6  8  ~/servers/servers/playbooks/all/etc_hosts.yml
+-'  1  0  servers/servers/playbooks/all/etc_hosts.yml
+-'  33  0  ~/servers/servers/hosts/stackscale
+-'  68  0  ~/servers/servers/hosts/stackscale
+-'  33  0  ~/servers/servers/files/stackscale/hosts
+-'  18  0  ~/servers/servers/files/stackscale/hosts
+-'  1  0  ~/servers/servers/files/stackscale/hosts
+-'  1  0  ~/servers/servers/playbooks/all/etc_hosts.yml
+-'  10  26  /var/lib/jenkins/deploy/NCFront/app/config/doctrine/dbal.yml
+-'  1  0  /var/lib/jenkins/deploy/NCFront/app/config/doctrine/dbal.yml
+-'  6  1  /var/lib/jenkins/deploy/Ofx/web/frontendocio.php
+-'  1  0  /var/lib/jenkins/deploy/Ofx/web/frontendocio.php
+-'  33  8  ~/servers/servers/playbooks/nginx/reconfigure-webstatic.yml
+-'  25  8  ~/servers/servers/playbooks/nginx/reconfigure-webstatic.yml
+-'  3  0  ~/servers/servers/playbooks/nginx/reconfigure-webstatic.yml
+-'  29  0  ~/servers/servers/playbooks/nginx/reconfigure-webstatic.yml
+-'  1  0  ~/servers/servers/playbooks/nginx/reconfigure-webstatic.yml
+-'  1  0  ~/servers/servers/playbooks/nginx/install-webstatic.yml
+-'  1  0  ~/servers/servers/hosts/stackscale
+-'  64  0  /etc/ansible/hosts
+-'  42  0  /etc/ansible/hosts
+-'  45  0  /etc/hosts
+-'  33  0  /etc/hosts
+-'  1  0  ~/.ssh/known_hosts
+-'  4  0  ~/.ssh/known_hosts
+-'  50  0  ~/.ssh/known_hosts
+-'  19  0  ~/.ssh/known_hosts
+-'  1  0  /etc/nagios/nrpe.cfg
+-'  1  0  ~/servers/cacharreos/verjaga/
+-'  1  0  ~/servers/cacharreos/verjaga/agentes/tasks/main.yml
+-'  1  0  /etc/hosts
+-'  3  2  ~/servers/cacharreos/verjaga/agentes.yml
+-'  4  10  ~/servers/cacharreos/verjaga/prueba.yml
+-'  1  0  ~/servers/cacharreos/verjaga/agentes
+-'  1  0  ~/servers/cacharreos/verjaga/prueba.yml
+-'  34  0  /etc/hosts
+-'  9  12  ~/servers/cacharreos/verjaga/vmware/tasks/main.yml
+-'  14  0  ~/servers/cacharreos/verjaga/vmware/tasks/main.yml
+-'  1  17  ~/servers/cacharreos/verjaga/vmware.yml
+-'  4  4  ~/servers/cacharreos/verjaga/vmware.yml
+-'  11  4  ~/servers/cacharreos/verjaga/vmware/tasks/main.yml
+-'  13  8  ~/servers/cacharreos/verjaga/vmware/tasks/main.yml
+-'  1  0  ~/servers/cacharreos/verjaga/vmware/tasks
+-'  1  0  ~/servers/cacharreos/verjaga/vmware
+-'  1  0  ~/servers/cacharreos/verjaga/vmware/tasks/main.yml
+-'  25  6  ~/servers/cacharreos/verjaga/agentes/tasks/main.yml
+-'  6  0  ~/servers/cacharreos/verjaga/agentes/vars/main.yml
+-'  71  0  /etc/ansible/hosts
+-'  65  0  /etc/ansible/hosts
+-'  33  0  ~/servers/cacharreos/verjaga/agentes/files/hosts
+-'  20  0  ~/servers/cacharreos/verjaga/agentes/files/hosts
+-'  5  2  ~/servers/cacharreos/verjaga/agentes.yml
+-'  11  0  /etc/hosts
+-'  1  0  ~/servers/cacharreos/verjaga/agentes.yml
+-'  6  4  ~/servers/cacharreos/verjaga/agentes.yml
+-'  19  0  ~/servers/cacharreos/verjaga/agentes/files/hosts
+-'  7  0  ~/servers/cacharreos/verjaga/agentes/vars
+-'  22  0  ~/playbooks/agents.yml
+-'  1  0  ~/servers/cacharreos/verjaga/agentes/tasks
+-'  12  2  ~/servers/cacharreos/verjaga/agentes/tasks/main.yml
+-'  1  1  ~/servers/cacharreos/verjaga/agentes/vars/main.yml
+-'  1  0  ~/servers/cacharreos/verjaga/agentes/handlers/main.yml
+-'  1  0  ~/servers/cacharreos/verjaga/agentes/handlers/man
+-'  27  2  ~/playbooks/agents2.yml
+-'  33  4  ~/playbooks/agents2.yml
+-'  1  0  ~/playbooks/agents2.yml
+-'  40  6  ~/playbooks/agents.yml
+-'  2  0  ~/playbooks/agents.yml
+-'  5  4  ~/playbooks/vcenter.yml
+-'  2  0  ~/playbooks/vcenter.yml
+-'  3  2  ~/playbooks/vcenter.yml
+-'  11  0  ~/playbooks/vcenter.yml
+-'  10  6  ~/playbooks/vcenter2.yml
+-'  15  19  ~/playbooks/vcenter3.yml
+-'  3  2  ~/playbooks/vcenter3.yml
+-'  19  28  ~/playbooks/vcenter3.yml
+-'  26  20  ~/playbooks/vcenter3.yml
+-'  14  8  ~/playbooks/vcenter3.yml
+-'  13  8  ~/playbooks/vcenter3.yml
+-'  33  0  ~/playbooks/vcenter3.yml
+-'  1  0  ~/playbooks/vcenter3.yml
+-'  7  4  ~/playbooks/vcenter2.yml
+-'  2  0  ~/playbooks/vcenter2.yml
+-'  1  0  ~/playbooks/vcenter2.yml
+-'  16  7  ~/playbooks/vcenter2.yml
+-'  6  3  ~/playbooks/vcenter2.yml
+-'  9  3  ~/playbooks/vcenter2.yml
+-'  1  0  /etc/ansible/hosts
+-'  6  3  ~/playbooks/vcenter.yml
+-'  1  0  ~/playbooks/vcenter.yml
+-'  4  3  ~/playbooks/vcenter.yml
+-'  15  7  ~/playbooks/vcenter.yml
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/servers/servers/playbooks/newvm/reconfigure_virtual_machine.yml
+	"	36	0
+
+> ~/servers/servers/playbooks/php/reconfigure.yml
+	"	21	0
+	^	21	0
+	.	20	0
+	+	22	0
+	+	15	15
+	+	22	0
+	+	14	0
+	+	15	77
+	+	20	0
+
+> ~/servers/cacharreos/verjaga/agentes.yml
+	"	2	16
+	^	2	17
+	.	2	16
+	+	7	0
+	+	2	12
+	+	7	0
+	+	6	12
+	+	2	15
+	+	5	1
+	+	3	10
+	+	2	23
+	+	4	1
+	+	3	11
+	+	2	17
+	+	3	0
+	+	2	16
+
+> ~/servers/servers/playbooks/all/nrpe.yml
+	"	1	0
+
+> ~/servers/servers/playbooks/all/etc_hosts.yml
+	"	6	8
+
+> servers/servers/playbooks/all/etc_hosts.yml
+	"	1	0
+
+> ~/servers/servers/hosts/stackscale
+	"	33	0
+
+> ~/servers/servers/files/stackscale/hosts
+	"	33	0
+
+> /var/lib/jenkins/deploy/NCFront/app/config/doctrine/dbal.yml
+	"	10	26
+	^	10	27
+	.	10	26
+	+	10	26
+
+> /var/lib/jenkins/deploy/Ofx/web/frontendocio.php
+	"	6	1
+	^	6	2
+	.	6	1
+	+	7	1
+	+	6	1
+
+> ~/servers/servers/playbooks/nginx/reconfigure-webstatic.yml
+	"	33	8
+	^	25	1
+	.	25	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+
+> ~/servers/servers/playbooks/nginx/install-webstatic.yml
+	"	1	0
+
+> /etc/ansible/hosts
+	"	64	0
+	^	65	8
+	.	21	0
+	+	79	0
+	+	65	7
+	+	71	0
+	+	16	0
+	+	21	0
+
+> /etc/hosts
+	"	45	0
+	^	33	22
+	.	33	21
+	+	33	21
+
+> ~/.ssh/known_hosts
+	"	1	0
+	.	19	0
+	+	19	0
+
+> ~/servers/cacharreos/verjaga/agentes/tasks/main.yml
+	"	1	0
+	^	25	22
+	.	25	22
+	+	37	0
+	+	7	30
+	+	7	52
+	+	7	49
+	+	2	4
+	+	35	41
+	+	7	4
+	+	7	4
+	+	7	4
+	+	7	2
+	+	7	49
+	+	7	0
+	+	7	48
+	+	6	6
+	+	7	4
+	+	7	0
+	+	7	4
+	+	7	3
+	+	7	4
+	+	7	1
+	+	7	2
+	+	7	3
+	+	7	4
+	+	7	0
+	+	7	3
+	+	7	3
+	+	7	3
+	+	7	0
+	+	30	0
+	+	9	98
+	+	9	0
+	+	31	0
+	+	7	0
+	+	9	0
+	+	7	36
+	+	8	0
+	+	7	4
+	+	8	15
+	+	12	30
+	+	9	3
+	+	17	81
+	+	13	0
+	+	27	24
+	+	29	1
+	+	19	31
+	+	22	14
+	+	20	4
+	+	22	4
+	+	20	0
+	+	22	1
+	+	19	0
+	+	20	1
+	+	21	0
+	+	28	0
+	+	30	0
+	+	2	0
+	+	3	0
+	+	3	15
+	+	2	0
+	+	2	0
+	+	3	0
+	+	2	0
+	+	24	27
+	+	25	0
+	+	24	33
+	+	25	22
+	i	8	6
+
+> ~/servers/cacharreos/verjaga/prueba.yml
+	"	4	10
+	^	4	11
+	.	4	10
+	+	4	1
+	+	3	11
+	+	5	1
+	+	4	10
+
+> ~/servers/cacharreos/verjaga/vmware/tasks/main.yml
+	"	9	12
+	^	9	13
+	.	9	4
+	+	14	0
+	+	14	0
+	+	13	38
+	+	1	2
+	+	1	9
+	+	3	28
+	+	2	15
+	+	2	0
+	+	1	3
+	+	2	0
+	+	3	1
+	+	4	1
+	+	5	1
+	+	6	1
+	+	7	1
+	+	8	1
+	+	9	1
+	+	11	1
+	+	12	1
+	+	13	1
+	+	2	7
+	+	2	0
+	+	3	1
+	+	4	2
+	+	5	2
+	+	6	2
+	+	7	2
+	+	8	2
+	+	9	2
+	+	11	2
+	+	12	2
+	+	13	2
+	+	3	0
+	+	2	1
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	1
+	+	8	0
+	+	9	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	3	32
+	+	4	19
+	+	5	14
+	+	8	18
+	+	9	20
+	+	13	24
+	+	9	3
+	+	9	4
+	+	10	0
+	+	12	1
+	+	10	3
+	+	9	4
+
+> ~/servers/cacharreos/verjaga/vmware.yml
+	"	1	17
+	^	1	18
+	.	1	17
+	+	4	11
+	+	1	17
+
+> ~/servers/cacharreos/verjaga/agentes/vars/main.yml
+	"	6	0
+	^	6	0
+	.	6	0
+	+	7	0
+	+	2	15
+	+	3	16
+	+	7	0
+	+	5	2
+	+	7	40
+	+	7	23
+	+	7	4
+	+	7	3
+	+	7	1
+	+	7	1
+	+	7	1
+	+	7	1
+	+	7	1
+	+	7	1
+	+	7	1
+	+	7	0
+	+	7	30
+	+	7	81
+	+	7	1
+	+	7	8
+	+	7	4
+	+	7	82
+	+	7	0
+	+	7	1
+	+	7	0
+	+	7	0
+	+	6	0

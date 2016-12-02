@@ -1,0 +1,15 @@
+---
+- hosts: 127.0.0.1
+  sudo: yes 
+  tasks:
+    vcenter_hostname: 10.58.108.2
+    esxhost: 10.58.108.251
+    username: admin
+    password: Ofer,tIx;44$ss
+    guest: newvm001
+    from_template: yes
+    template_src: PlantillaCentos6.7
+    cluster: cluster1
+    vm_disk:
+      disk1:
+        datastore: vol297
